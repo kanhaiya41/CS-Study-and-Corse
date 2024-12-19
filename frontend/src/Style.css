@@ -1,0 +1,1293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    background-color: white;
+    /* opacity: 0.3; */
+    height: 100px;
+    display: inline-flex;
+    width: 100vw;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+/* nav:hover {
+    background-color: coral;
+    opacity: 0.2;
+    color: rgb(23, 219, 59);
+} */
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 2.5%;
+    width: 70%;
+    gap: 10vw;
+}
+
+.home {
+    margin-left: 0%;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: large;
+}
+
+.navli {
+    margin-left: 0%;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+
+.sidenav {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home:hover {
+    color: rgb(28, 7, 124);
+    text-decoration: underline;
+
+}
+
+.navli:hover {
+    color: rgb(28, 7, 124);
+    text-decoration: underline;
+
+}
+
+
+.dvlpr {
+
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 1.2%;
+    color: darkcyan;
+}
+
+.aboutbody {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+
+.abtdvlp {
+    background-image: url("../public/img/aboutback.jpg");
+    height: 500px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.rimg {
+    margin-left: 30%;
+}
+
+.roundbutton {
+    margin-left: 35%;
+    margin-top: 4%;
+    height: 15%;
+    width: 30%;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+.roundbuttono {
+    margin-left: 8%;
+    margin-top: 1%;
+    height: 25%;
+    width: 80%;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+.roundbutton:hover {
+    background-color: rgb(56, 49, 140);
+    color: rgb(192, 95, 10);
+    /* cursor: pointer; */
+}
+
+.roundbuttonb {
+    margin-left: 20%;
+    margin-top: 1%;
+    height: 25%;
+    width: 60%;
+    border-radius: 30px;
+    font-size: x-large;
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+.roundbuttonb:hover {
+    background-color: rgb(56, 49, 140);
+    color: rgb(192, 95, 10);
+    /* cursor: pointer; */
+}
+
+.roundbuttono:hover {
+    background-color: rgb(56, 49, 140);
+    color: rgb(192, 95, 10);
+    cursor: pointer;
+}
+
+.studybody {
+    background-color: blueviolet;
+    height: 1950px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.studycard {
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px rgba(75, 75, 75, 0);
+    height: 550px;
+    width: 450px;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+.cid {
+    border: solid 1px #aaa;
+    color: rgb(183, 153, 116);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+}
+
+.learntext {
+    margin-left: 82%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+
+    text-transform: uppercase;
+}
+
+.cimg {
+    width: 70%;
+    height: 45%;
+}
+
+.sbi {
+    float: right;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    margin: 50px 0 0;
+    cursor: pointer;
+
+}
+
+.jbi {
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.study-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+}
+
+.bcbody {
+    /* background-color: blueviolet; */
+    /* height: 1900px; */
+    width: 100%;
+    padding: 1vw;
+    /* opacity: 0.5; */
+}
+
+.hi {
+    background-color: silver;
+    /* height: 5%; */
+    padding-top: .5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centerr {
+    text-align: center;
+    background-color: silver;
+    height: 5%;
+    /* padding: 2%; */
+    /* opacity: 0.80; */
+}
+
+.file {
+    margin-left: 25%;
+}
+
+.dnldbtn {
+    height: 80px;
+    width: 200px;
+    margin-left: 35%;
+    border-radius: 50px;
+    font-size: x-large;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.dnldbtn:hover {
+    background-color: cornflowerblue;
+    color: darkred;
+}
+
+.pnldbtn {
+    height: 80px;
+    width: 200px;
+    margin-left: 5%;
+    border-radius: 50px;
+    font-size: x-large;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.pnldbtn:hover {
+    background-color: cornflowerblue;
+    color: darkred;
+}
+
+#notes {
+    /* background-color: blueviolet; */
+    border: solid black 1px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.aimg {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-left: 98%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+#adiv {
+    height: fit-content;
+    width: 250px;
+    background-color: #aaa;
+    margin-left: 80%;
+    display: none;
+
+}
+
+#alogin {
+    height: fit-content;
+    width: 250px;
+    background-color: #aaa;
+    margin-left: 80%;
+    margin-top: 1%;
+    display: none;
+}
+
+.enter {
+    margin-left: 30%;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+#adcourse {
+    height: fit-content;
+    width: 300px;
+    background-color: rgb(28, 220, 146);
+    margin-left: 80%;
+    display: none;
+}
+
+.notespdf {
+    /* background-color: rgba(202, 197, 207, 0.899); */
+    /* height: 400px; */
+    overflow: scroll;
+    padding: 1vw;
+
+}
+
+.ocbody {
+    background-color: rgb(203, 127, 211);
+    height: 2300px;
+    width: 100%;
+}
+
+.Coursecard {
+    background-color: rgb(147, 107, 142);
+    padding-left: 5px;
+}
+
+.topic {
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.conbody {
+    background-color: #b4f684;
+    height: 1000px;
+}
+
+.git {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.condec {
+    margin-left: 17%;
+}
+
+.condecniche {
+    display: flex;
+}
+
+.pn {
+    background-color: fuchsia;
+    border-radius: 10px;
+    width: 35%;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.phone {
+    box-shadow: #aaa 5px solid;
+    width: 350px;
+    height: 340px;
+    background-color: #6bb039;
+    border-radius: 5%;
+    margin-left: 3%;
+    padding: 2%;
+}
+
+.phonee {
+    box-shadow: #aaa 5px solid;
+    width: 350px;
+    height: 340px;
+    background-color: #6bb039;
+    border-radius: 5%;
+    margin-left: 3%;
+    padding: 2%;
+    margin-left: 200px
+}
+
+.call {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.career {
+    box-shadow: #aaa 5px solid;
+    width: 600px;
+    height: 340px;
+    background-color: #6bb039;
+    border-radius: 5%;
+    margin-left: 9%;
+    padding: 2%;
+}
+
+.careerr {
+    box-shadow: #aaa 5px solid;
+    width: 600px;
+    height: 340px;
+    background-color: #6bb039;
+    border-radius: 5%;
+    margin-left: 100px;
+    padding: 2%;
+}
+
+.confooter {
+    background-color: white;
+    height: 60px;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: x-large;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ol {
+    list-style: disc;
+}
+
+.docum {
+    line-height: 30px;
+}
+
+.docbody {
+    padding-left: 50px;
+    padding-top: 40px;
+    /* background-color: aliceblue; */
+}
+
+li {
+    margin-left: 30px;
+}
+
+.joinbody {
+    height: 1700px;
+    width: 100%;
+    background-color: #b4f684;
+}
+
+.coursedec {
+    box-shadow: #aaa 5px solid;
+    width: 80%;
+    /* height: 340px; */
+    background-color: #6bb039;
+    border-radius: 3%;
+    margin-left: 9%;
+    padding: 2%;
+}
+
+.corform {
+    box-shadow: #aaa 5px solid;
+    width: 60%;
+    height: 1100px;
+    background-color: #6bb039;
+    border-radius: 5%;
+    margin-left: 8%;
+    padding: 2%;
+}
+
+.pmethod {
+    box-shadow: #aaa 5px solid;
+    width: 20%;
+    height: 1100px;
+    background-color: #6bb039;
+    /* border-radius: 5%; */
+    margin-left: 8%;
+    padding: 2%;
+}
+
+.payat {
+    opacity: .5;
+    font-size: larger;
+}
+
+.ginput {
+    background-color: #6bb039;
+    width: 90%;
+    height: 50px;
+    font-size: larger;
+    border: none;
+    border-bottom: #bd2222;
+    /* border-radius: 50%; */
+}
+
+.cordet {
+    width: 100%;
+    display: inline-flex;
+}
+
+.pay {
+    height: 240px;
+    width: 175px;
+}
+
+.nump {
+    background-color: rgb(109, 230, 109);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bodyh {
+    background-image: url('../public/img/bg.png');
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    gap: 19.5vw;
+    /* Space between divs */
+    margin-top: 28vh;
+    margin-left: 17vw;
+}
+
+.homea,
+.homeb,
+.homec,
+.homed {
+    background-color: #3498db;
+    color: black;
+    padding: 1vw;
+    height: fit-content;
+    width: 23vw;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.homea.hidden,
+.homec.hidden {
+    opacity: 0;
+}
+
+.homeb {
+    background-color: #2ecc71;
+    color: black;
+    position: absolute;
+    height: fit-content;
+    width: 23vw;
+    border-radius: 5%;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.homed {
+    background-color: #2ecc71;
+    color: black;
+    position: absolute;
+    height: fit-content;
+    width: 23vw;
+    border-radius: 5%;
+    transform: translateX(100%);
+    opacity: 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.homeb {
+    top: 300px;
+    left: 200;
+}
+
+.homed {
+    top: 300px;
+    left: 900px;
+    /* Adjust this to position correctly relative to homec */
+}
+
+.homeb.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.homed.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.homec {
+    background-color: skyblue;
+}
+
+.homed {
+    background-color: #2ecc71;
+    color: black;
+}
+
+@media (max-width:600px) {
+    /* nav {
+        background-color: rgb(153, 192, 216);
+        opacity: 0.3;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    } */
+
+    nav {
+        background-color: white;
+        /* opacity: 0.3; */
+        height: 100px;
+        display: inline-flex;
+        width: 100vw;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+
+
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding-top: 4%;
+        width: 30%;
+        align-items: center;
+    }
+
+    .home {
+        margin-left: 0%;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-size: large;
+        display: none;
+    }
+
+    .navli {
+        margin-left: 0%;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        cursor: pointer;
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+
+    .sidenav div {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .sidenav div:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .sidenav button {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        cursor: pointer;
+        background-color: #111;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .home:hover {
+        color: rgb(28, 7, 124);
+        text-decoration: underline;
+
+    }
+
+    .navli:hover {
+        color: rgb(28, 7, 124);
+        text-decoration: underline;
+
+    }
+
+
+    .dvlpr {
+
+        margin-left: 0;
+        font-size: 50px;
+        margin-top: 1.2%;
+        color: darkcyan;
+    }
+
+    .aboutbody {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+    }
+
+    .abtdvlp {
+        background-image: url("../public/img/aboutback.jpg");
+        height: fit-content;
+        width: 100%;
+        margin-left: 0%;
+        padding: 20px;
+        /* opacity:   0.5; */
+    }
+
+    .rimg {
+        margin-left: 0%;
+        width: 100vw;
+    }
+
+    .roundbutton {
+        margin-left: 25%;
+        margin-top: 4%;
+        height: 15%;
+        padding: 1vh;
+        width: fit-content;
+        border-radius: 30px;
+        font-size: x-large;
+        background-color: chocolate;
+        color: chartreuse;
+    }
+
+    .roundbuttono {
+        margin-left: 8%;
+        margin-top: 1%;
+        height: 25%;
+        width: 80%;
+        border-radius: 30px;
+        font-size: x-large;
+        background-color: chocolate;
+        color: chartreuse;
+    }
+
+    .roundbutton:hover {
+        background-color: rgb(56, 49, 140);
+        color: rgb(192, 95, 10);
+    }
+
+    .roundbuttonb {
+        margin-left: 20%;
+        margin-top: 1%;
+        height: 25%;
+        width: 60%;
+        border-radius: 30px;
+        font-size: x-large;
+        background-color: chocolate;
+        color: chartreuse;
+    }
+
+    .roundbuttonb:hover {
+        background-color: rgb(56, 49, 140);
+        color: rgb(192, 95, 10);
+        /* cursor: pointer; */
+    }
+
+    .roundbuttono:hover {
+        background-color: rgb(56, 49, 140);
+        color: rgb(192, 95, 10);
+        cursor: pointer;
+    }
+
+    .studybody {
+        background-color: blueviolet;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .studycard {
+        background-color: antiquewhite;
+        box-shadow: 0 0 5px rgba(75, 75, 75, 0);
+        height: fit-content;
+        width: 100vw;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .cid {
+        border: solid 1px #aaa;
+        color: rgb(183, 153, 116);
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .learntext {
+        margin-left: 82%;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 6px;
+
+        text-transform: uppercase;
+    }
+
+    .cimg {
+        width: 70%;
+        height: 45%;
+    }
+
+    .sbi {
+        float: right;
+        border: 1px solid #aaa;
+        padding: 5px 10px;
+        margin: 50px 0 0;
+        cursor: pointer;
+
+    }
+
+    .jbi {
+        border: 1px solid #aaa;
+        padding: 5px 10px;
+        cursor: pointer;
+
+    }
+
+    .study-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    .bcbody {
+        width: 100%;
+        padding: 2vw;
+    }
+
+    .hi {
+        background-color: silver;
+        padding-top: .5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .centerr {
+        text-align: center;
+        background-color: silver;
+        height: 5%;
+    }
+
+    .file {
+        margin-left: 25%;
+    }
+
+    .dnldbtn {
+        height: 80px;
+        width: 200px;
+        margin-left: 25%;
+        border-radius: 50px;
+        font-size: x-large;
+        background-color: darkgoldenrod;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    .dnldbtn:hover {
+        background-color: cornflowerblue;
+        color: darkred;
+    }
+
+    .pnldbtn {
+        height: 80px;
+        width: 200px;
+        margin-left: 5%;
+        border-radius: 50px;
+        font-size: x-large;
+        background-color: darkgoldenrod;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    .pnldbtn:hover {
+        background-color: cornflowerblue;
+        color: darkred;
+    }
+
+    #notes {
+        border: solid black 1px;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .aimg {
+        border-radius: 100%;
+        height: 30px;
+        width: 30px;
+        margin-left: 92%;
+        margin-top: 3%;
+        cursor: pointer;
+
+    }
+
+    #adiv {
+        height: 200px;
+        width: 250px;
+        background-color: #aaa;
+        margin-left: 20%;
+        display: none;
+
+    }
+
+    #alogin {
+        height: fit-content;
+        width: 250px;
+        background-color: #aaa;
+        margin-left: 20%;
+        margin-top: 0%;
+        display: none;
+    }
+
+    .enter {
+        margin-left: 30%;
+        height: 50px;
+        width: 100px;
+        background-color: green;
+        border-radius: 50px;
+    }
+
+    #adcourse {
+        height: fit-content;
+        width: 300px;
+        background-color: rgb(28, 220, 146);
+        margin-left: 10%;
+        display: none;
+    }
+
+    .notespdf {
+        /* background-color: rgba(202, 197, 207, 0.899); */
+        /* height: 400px; */
+        overflow: scroll;
+
+    }
+
+    .ocbody {
+        background-color: rgb(203, 127, 211);
+        height: 2300px;
+        width: 100%;
+    }
+
+    .Coursecard {
+        background-color: rgb(147, 107, 142);
+        padding-left: 5px;
+    }
+
+    .topic {
+        height: 100px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .conbody {
+        background-color: #b4f684;
+        height: fit-content;
+    }
+
+    .git {
+        font-size: 70px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .condec {
+        margin-left: 0%;
+        padding: 2vw;
+    }
+
+    .condecniche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .pn {
+        background-color: fuchsia;
+        border-radius: 10px;
+        width: fit-content;
+        height: 30px;
+        text-align: center;
+        padding: 1vw;
+    }
+
+    .phone {
+        box-shadow: #aaa 5px solid;
+        width: 350px;
+        height: 340px;
+        background-color: #6bb039;
+        border-radius: 5%;
+        margin-left: 3%;
+        padding: 2%;
+    }
+
+    .phonee {
+        box-shadow: #aaa 5px solid;
+        width: 350px;
+        height: 340px;
+        background-color: #6bb039;
+        border-radius: 5%;
+        padding: 2%;
+        margin-left: 3%
+    }
+
+    .call {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .career {
+        box-shadow: #aaa 5px solid;
+        width: 100vw;
+        height: fit-content;
+        background-color: #6bb039;
+        border-radius: 5%;
+        margin-left: 0%;
+        padding: 2%;
+    }
+
+    .careerr {
+        box-shadow: #aaa 5px solid;
+        width: 100vw;
+        height: fit-content;
+        background-color: #6bb039;
+        border-radius: 5%;
+        margin-left: 0;
+        padding: 2vw;
+    }
+
+    .confooter {
+        background-color: white;
+        height: 60px;
+        /* padding: 40px; */
+        padding-top: 12px;
+        padding-left: 12px;
+        font-size: x-large;
+    }
+
+    ol {
+        list-style: disc;
+    }
+
+    .docum {
+        line-height: 30px;
+    }
+
+    .docbody {
+        padding: 40px 5vw 0;
+        /* background-color: aliceblue; */
+    }
+
+    li {
+        margin-left: 30px;
+    }
+
+    .joinbody {
+        height: 1700px;
+        width: 100%;
+        background-color: #b4f684;
+    }
+
+    .coursedec {
+        box-shadow: #aaa 5px solid;
+        width: 80%;
+        /* height: 340px; */
+        background-color: #6bb039;
+        border-radius: 3%;
+        margin-left: 9%;
+        padding: 2%;
+    }
+
+    .corform {
+        box-shadow: #aaa 5px solid;
+        width: 100%;
+        height: 1100px;
+        background-color: #6bb039;
+        border-radius: 5%;
+        margin-left: 0%;
+        padding: 2%;
+    }
+
+    .pmethod {
+        box-shadow: #aaa 5px solid;
+        width: 100%;
+        height: fit-content;
+        background-color: #6bb039;
+        /* border-radius: 5%; */
+        margin-left: 0%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .payat {
+        opacity: .5;
+        font-size: larger;
+    }
+
+    .ginput {
+        background-color: #6bb039;
+        width: 90%;
+        height: 50px;
+        font-size: larger;
+        border: none;
+        border-bottom: #bd2222;
+        /* border-radius: 50%; */
+    }
+
+    .cordet {
+        width: 100%;
+        display: flex;
+        gap: 2vh;
+        flex-direction: column;
+    }
+
+    .pay {
+        height: 240px;
+        width: 175px;
+    }
+
+    .nump {
+        background-color: rgb(109, 230, 109);
+    }
+
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .bodyh {
+        background-image: url('../public/img/bg.png');
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 10.5vw;
+        /* Space between divs */
+        margin-top: 0;
+        margin-left: 0;
+        padding: 5vh 2vh 2vh 2vh;
+    }
+
+    .homea,
+    .homeb,
+    .homec,
+    .homed {
+        background-color: #3498db;
+        color: black;
+        padding: 2vh;
+        height: 40vh;
+        width: fit-content;
+        border-radius: 5%;
+        cursor: pointer;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .homea.hidden,
+    .homec.hidden {
+        opacity: 0;
+    }
+
+    .homeb {
+        background-color: #2ecc71;
+        color: black;
+        position: absolute;
+        height: 40vh;
+        width: fit-content;
+        max-width: 91vw;
+        border-radius: 5%;
+        transform: translateX(0%);
+        opacity: 0;
+    }
+
+    .homed {
+        background-color: #2ecc71;
+        color: black;
+        position: absolute;
+        height: 40vh;
+        width: fit-content;
+        max-width: 91vw;
+        border-radius: 5%;
+        transform: translateX(0%);
+        opacity: 0;
+    }
+
+    .homeb {
+        top: 13vh;
+        left: 4vw;
+    }
+
+    .homed {
+        top: 58vh;
+        left: 4vw;
+        /* Adjust this to position correctly relative to homec */
+    }
+
+    .homeb.visible {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .homed.visible {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .homec {
+        background-color: skyblue;
+    }
+
+    .homed {
+        background-color: #2ecc71;
+        color: rgb(104, 88, 88);
+    }
+}
