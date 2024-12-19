@@ -25,7 +25,7 @@ const Join = () => {
   useEffect(() => {
     const getcourse = async () => {
       try {
-        const res = await axios.get(`http://localhost:3001/finddec/${urlLastpart}`);
+        const res = await axios.get(`https://cs-study-and-corse.onrender.com/finddec/${urlLastpart}`);
         setCoursedata(res?.data);
       } catch (error) {
         toast.error('error', error);
@@ -62,7 +62,7 @@ const Join = () => {
     data.append('urlLastpart', urlLastpart);
     data.append('payss', formData.payss);
     try {
-      await axios.post('http://localhost:3001/gmail', data, {
+      await axios.post('https://cs-study-and-corse.onrender.com/gmail', data, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

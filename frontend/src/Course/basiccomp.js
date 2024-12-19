@@ -55,7 +55,7 @@ const BasicComp = () => {
   const PostData = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`http://localhost:3001/study/BasicComputer/login/${User}/${Pass}`);
+      const res = await axios.get(`https://cs-study-and-corse.onrender.com/study/BasicComputer/login/${User}/${Pass}`);
       if (!res.data) {
         toast.error("Incorrect information");
       } else {
@@ -78,7 +78,7 @@ const BasicComp = () => {
 
     try {
       const enfile = encodeURIComponent(file);
-      const res = await axios.post(`http://localhost:3001/store/${heading}/${course}/${description}/${enfile}`);
+      const res = await axios.post(`https://cs-study-and-corse.onrender.com/store/${heading}/${course}/${description}/${enfile}`);
 
       if (res.data) {
         toast.success(res.data.message);
@@ -100,7 +100,7 @@ const BasicComp = () => {
   useEffect(() => {
     const getcourse = async () => {
       try {
-        const res = await axios.get(`http://localhost:3001/findnotes/${urlLastpart}`);
+        const res = await axios.get(`https://cs-study-and-corse.onrender.com/findnotes/${urlLastpart}`);
         setCoursedata(res.data);
       } catch (error) {
         toast.error('error', error);
